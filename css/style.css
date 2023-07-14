@@ -114,3 +114,32 @@ width: 100%;
         background-color: #45a049;
       }
       
+      /* Responsive layout on CSS */
+      @media (max-width: 840) {
+        /* drop right cloumn down */
+        #leftcolumn {margin-left: -100%;}
+        #rightcolum {
+            float: none;
+            width: 100%;
+            margin-left: 0;
+            clear: both;
+        }
+        #contentcolum{
+            margin-right: 0;
+            /* set the margin to left column */
+        }
+
+      }
+      @media (max-width: 600px){/* Drop Left Column Down */}
+		
+		#leftcolumn {
+		float:none;
+		width:100%;
+		margin-left: 0;
+		clear: both;
+		}
+		
+		#contentcolumn {
+			margin-left:0;
+		}
+		
